@@ -1,4 +1,11 @@
-* linguist-detectable=true
 *.dart linguist-language=Dart
+*.dart linguist-detectable=true
+
 android/** linguist-vendored
 ios/** linguist-vendored
+linux/** linguist-vendored
+windows/** linguist-vendored
+macos/** linguist-vendored
+web/** linguist-vendored
+
+*.xml linguist-vendored
